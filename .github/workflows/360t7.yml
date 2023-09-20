@@ -21,7 +21,7 @@ on:
 
 env:
   REPO_URL: https://github.com/flowlife/immortalwrt
-  REPO_BRANCH: mt7981
+  REPO_BRANCH: mt798x
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: 360T7.config
   DIY_P1_SH: diy-part1.sh

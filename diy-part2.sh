@@ -23,7 +23,7 @@ rm -rf feeds/kenzo/luci-theme-argon
 rm -rf feeds/kenzo/luci-app-argon-config
 rm -rf feeds/kenzo/luci-theme-argone
 rm -rf feeds/kenzo/luci-app-argone-config
-rm -rf feeds/luci/applications/luci-app-passwall && git clone -b main https://github.com/xiaorouji/openwrt-passwall.git feeds/luci/applications
+rm -rf feeds/luci/applications/luci-app-passwall &&svn co https://github.com/xiaorouji/branches/main/openwrt-passwall feeds/luci/applications/luci-app-passwall
 rm -rf feeds/packages/net/xray-core && svn co https://github.com/immortalwrt/packages/branches/openwrt-21.02/net/xray-core feeds/packages/net/xray-core
 rm -rf feeds/packages/lang/golang && svn co https://github.com/immortalwrt/packages/branches/openwrt-21.02/lang/golang feeds/packages/lang/golang
 rm -rf package/base-files/files/etc && svn co https://github.com/immortalwrt/immortalwrt/branches/openwrt-18.06-k5.4/package/base-files/files/etc package/base-files/files/etc

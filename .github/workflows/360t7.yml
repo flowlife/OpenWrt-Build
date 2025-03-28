@@ -75,7 +75,8 @@ jobs:
       run: cd openwrt && ./scripts/feeds install -a
 
     - name: rm old package
-      run: cd openwrt
+      run: |
+           cd openwrt
            rm -rf feeds/luci/applications/luci-app-passwall
            rm -rf feeds/luci/applications/luci-app-passwall
            rm -rf feeds/packages/net/xray-core
